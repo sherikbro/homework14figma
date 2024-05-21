@@ -1,0 +1,99 @@
+.post{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 100px;
+    .post-item{
+        display: flex;
+        flex-direction: column;
+        .post-img{
+            img{
+                width: 100%;
+            }
+        }
+        .post-info{
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding: 20px 0;
+            p{
+                font-size: 14px;
+                color: #999999;
+            }
+            h2{
+                font-size: 22px;
+                font-weight: 100;
+            }
+            h4{
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media(max-width:1000px ){
+    .post{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        margin-top: 100px;
+        .post-item{
+            .post-img{
+                img{
+                    width: 100%;
+                }
+            }
+            .post-info{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+                padding: 20px 0;
+                p{
+                    font-size: 12px;
+                    color: #999999;
+                }
+                h2{
+                    font-size: 18px;
+                    font-weight: 100;
+                }
+                h4{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:786px ){
+    .post{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        margin-top: 100px;
+        .post-item{
+            .post-img{
+                img{
+                    width: 100%;
+                }
+            }
+            .post-info{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                padding: 20px 0;
+                p{
+                    font-size: 12px;
+                    color: #999999;
+                }
+                h2{
+                    font-size: 18px;
+                    font-weight: 100;
+                }
+                h4{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
