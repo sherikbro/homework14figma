@@ -67,8 +67,9 @@
 input[type=checkbox]:checked + ul{
     transform: translateX(0);
 }
-@media (max-width: 768px){
+@media (max-width: 786px){
     .navbar{
+        padding: 20px;
         .icons{
             display: block;
         }
